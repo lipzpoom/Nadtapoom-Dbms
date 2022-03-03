@@ -187,7 +187,7 @@ export default class Showdata extends Component{
 
         return (
             <div className="App">
-                <h2 className="my-4">Users Information<br/></h2>
+                <h2 className="my-4">{this.state.list.length} Users<br/></h2>
                 <hr/>
                 <div className="container p-3 my-3 bg-dark text-white">
                     <table className="table table-dark">
